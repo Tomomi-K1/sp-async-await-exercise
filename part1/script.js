@@ -30,6 +30,17 @@ async function showNumFact(numArray){
     }
 }
 
+// // 3. ==springboard ===
+// async function part3() {
+//     let facts = await Promise.all(
+//       Array.from({ length: 4 }, () => $.getJSON(`${baseURL}/${favNumber}?json`))
+//     );
+//     facts.forEach(data => {
+//       $('body').append(`<p>${data.text}</p>`);
+//     });
+//   }
+//   part3();
+
 // showNumFact(favNum);
 
     // NumArray.forEach(num =>{
