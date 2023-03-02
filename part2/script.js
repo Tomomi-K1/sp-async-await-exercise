@@ -22,7 +22,7 @@ async function getTwoCards(){
     })
 }
 
-getTwoCards();
+// getTwoCards();
 
 // 3.
 
@@ -69,7 +69,7 @@ $(function(){
     let deckId = null;
 
     async function setup(){
-        let $btn = $('button');
+        let $btn = $('#requestbtn');
         let $cardArea =$('.card-display');
         
         let res = await axios.get('https://deckofcardsapi.com/api/deck/new/shuffle/');
@@ -94,5 +94,6 @@ $(function(){
             }
         })
     }
+    setup();
 });
 
