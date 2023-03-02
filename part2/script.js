@@ -65,7 +65,7 @@ getTwoCards();
 //     })
 
 // })
-$(function{
+$(function(){
     let deckId = null;
 
     async function setup(){
